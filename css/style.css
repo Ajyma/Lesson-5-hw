@@ -361,6 +361,19 @@ ul{
         margin-left: -30px;
     }
 }
+@media screen and (max-width:880px) {
+    .main_images{
+        margin-left: 150px;
+    }
+}
+@media screen and (max-width:700px) {
+    .main_images{
+        margin-left: 100px;
+    }
+    .row{
+        margin-left: 150px;
+    }
+}
 @media screen and (max-width:690px) {
     .main_images{
         margin-left: 30px;
@@ -392,6 +405,11 @@ ul{
     .email input{
         padding-right: 60px;
         margin-left: 2%;
+    }
+}
+@media screen and (max-width:350px) {
+    .row{
+        margin-left: 0;
     }
 }
 .footer_list{
